@@ -4,13 +4,13 @@ const trackingData = {
     trackingNumber: 'FDX766567854',
     status: 'On Hold',
     estimatedDelivery: '2025-05-10',
-    origin: 'Los angeles, CA',
-    destination: 'New York, NY',
+    origin: 'San Bernardino, CA',
+    destination: 'Waterbury, CT',
     service: 'Express Shipping',
     weight: '5.2 lbs',
     shipDate: '2025-05-05',
     items: '1 package',
-    currentLocation: 'Chicago, IL',
+    currentLocation: 'Phoenix, AZ',
     lastUpdated: '2025-05-07T14:30:00',
     events: [
       {
