@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Track & Ship - Package Tracking Platform</title>
+  <meta name="description" content="Track & Ship - Real-time package tracking and shipping services with FedEx-inspired reliability.">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <h1>Track<span class="accent">&</span>Ship</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Track</a></li>
+            <li><a href="#">Ship</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </nav>
+        <div class="auth-buttons">
+          <button class="btn btn-outline">Sign In</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Track Your Shipments</h2>
+        <p>Real-time updates and detailed tracking information for all your packages in one place.</p>
+        <div class="hero-buttons">
+          <a href="#tracking-form" class="btn btn-primary">Track Package</a>
+          <a href="#" class="btn btn-secondary">Create Shipment</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="tracking-section" id="tracking-form">
+      <div class="container">
+        <h2>Track Your Package</h2>
+        <form id="tracking-form">
+          <div class="form-group">
+            <label for="tracking-number">Tracking Number</label>
+            <input type="text" id="tracking-number" placeholder="Enter your tracking number" required>
+            <p class="form-hint">Example: FDX123456789</p>
+          </div>
+          <button type="submit" class="btn btn-primary">Track</button>
+        </form>
+
+        <div id="error-message" class="error-message hidden"></div>
+
+        <div id="tracking-result" class="tracking-result hidden">
+          <div class="tracking-header">
+            <h3>Package Tracking</h3>
+            <p id="tracking-id"></p>
+          </div>
+          
+          <div class="status-card">
+            <div class="status-icon">
+              <span id="status-icon">📦</span>
+            </div>
+            <div class="status-info">
+              <h4 id="status">In Transit</h4>
+              <p id="status-description">Your package is in transit</p>
+            </div>
+            <div class="delivery-info">
+              <p>Estimated Delivery</p>
+              <p id="delivery-date" class="delivery-date">May 10, 2025</p>
+              <p>By End of Day</p>
+            </div>
+          </div>
+
+          <div class="shipment-details">
+            <h4>Shipment Details</h4>
+            <div class="details-grid">
+              <div class="detail-item">
+                <p class="detail-label">From</p>
+                <p id="origin" class="detail-value">San Francisco, CA</p>
+              </div>
+              <div class="detail-item">
+                <p class="detail-label">To</p>
+                <p id="destination" class="detail-value">New York, NY</p>
+              </div>
+              <div class="detail-item">
+                <p class="detail-label">Service</p>
+                <p id="service" class="detail-value">Express Shipping</p>
+              </div>
+              <div class="detail-item">
+                <p class="detail-label">Weight</p>
+                <p id="weight" class="detail-value">5.2 lbs</p>
+              </div>
+              <div class="detail-item">
+                <p class="detail-label">Shipped On</p>
+                <p id="ship-date" class="detail-value">May 5, 2025</p>
+              </div>
+              <div class="detail-item">
+                <p class="detail-label">Items</p>
+                <p id="items" class="detail-value">1 package</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="travel-history">
+            <h4>Travel History</h4>
+            <div id="tracking-timeline" class="tracking-timeline">
+              <!-- Timeline events will be inserted here by JavaScript -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+          <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-4.0.3&auto=format&fit=crop&w=640&h=360" alt="Warehouse with shipping operations">
+            <div class="service-content">
+              <h3>Express Shipping</h3>
+              <p>Get your packages delivered faster with our premium express shipping service.</p>
+              <a href="#" class="service-link">Learn More</a>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1571867424488-4565932edb41?ixlib=rb-4.0.3&auto=format&fit=crop&w=640&h=360" alt="Delivery person scanning package">
+            <div class="service-content">
+              <h3>Real-time Tracking</h3>
+              <p>Monitor your shipments in real-time with accurate updates at every step.</p>
+              <a href="#" class="service-link">Learn More</a>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?ixlib=rb-4.0.3&auto=format&fit=crop&w=640&h=360" alt="Delivery truck on the road">
+            <div class="service-content">
+              <h3>International Shipping</h3>
+              <p>Ship to over 220 countries and territories with our global network.</p>
+              <a href="#" class="service-link">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2>Ready to Ship Your Package?</h2>
+        <p>Create a shipment now and experience our fast, reliable delivery service backed by our state-of-the-art tracking system.</p>
+        <div class="cta-buttons">
+          <a href="#" class="btn btn-light">Create Shipment</a>
+          <a href="#" class="btn btn-secondary">Compare Services</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>Track<span class="accent">&</span>Ship</h3>
+          <p>Your trusted shipping partner for fast, reliable package delivery with real-time tracking.</p>
+          <div class="social-links">
+            <a href="#" class="social-link">Facebook</a>
+            <a href="#" class="social-link">Twitter</a>
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">LinkedIn</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="link-group">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Track Package</a></li>
+              <li><a href="#">Create Shipment</a></li>
+              <li><a href="#">Shipping Rates</a></li>
+              <li><a href="#">Locations</a></li>
+              <li><a href="#">Support Center</a></li>
+            </ul>
+          </div>
+          <div class="link-group">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Express Shipping</a></li>
+              <li><a href="#">International Delivery</a></li>
+              <li><a href="#">Freight Services</a></li>
+              <li><a href="#">Customs Clearance</a></li>
+              <li><a href="#">Supply Chain Solutions</a></li>
+            </ul>
+          </div>
+          <div class="link-group">
+            <h4>Contact Us</h4>
+            <ul>
+              <li>123 Shipping Lane, Logistics City, LC 12345</li>
+              <li>+1 (800) 123-4567</li>
+              <li>support@trackandship.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Track & Ship. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
