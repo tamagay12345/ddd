@@ -2,7 +2,7 @@
 const trackingData = {
   'FDX766567854': {
     trackingNumber: 'FDX766567854',
-    status: 'On Hold',
+    status: 'In Transit',
     estimatedDelivery: '2025-05-12',
     origin: 'San Bernardino, CA',
     destination: 'Waterbury, CT',
