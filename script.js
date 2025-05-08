@@ -1,10 +1,10 @@
 // Sample tracking data (would normally come from a server)
 const trackingData = {
   'FDX123456789': {
-    trackingNumber: 'FDX123456789',
-    status: 'In Transit',
+    trackingNumber: 'FDX766567854',
+    status: 'On Hold',
     estimatedDelivery: '2025-05-10',
-    origin: 'San Francisco, CA',
+    origin: 'Los angeles, CA',
     destination: 'New York, NY',
     service: 'Express Shipping',
     weight: '5.2 lbs',
