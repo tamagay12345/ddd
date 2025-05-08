@@ -3,38 +3,38 @@ const trackingData = {
   'FDX766567854': {
     trackingNumber: 'FDX766567854',
     status: 'On Hold',
-    estimatedDelivery: '2025-05-10',
+    estimatedDelivery: '2025-05-12',
     origin: 'San Bernardino, CA',
     destination: 'Waterbury, CT',
     service: 'Express Shipping',
     weight: '5.2 lbs',
-    shipDate: '2025-05-05',
+    shipDate: '2025-05-10',
     items: '1 package',
     currentLocation: 'Phoenix, AZ',
-    lastUpdated: '2025-05-07T14:30:00',
+    lastUpdated: '2025-05-11T14:30:00',
     events: [
       {
         status: 'In Transit',
-        location: 'Chicago, IL',
-        timestamp: '2025-05-07T14:30:00',
+        location: 'Phoenix, AZ',
+        timestamp: '2025-05-11T14:30:00',
         description: 'Package has departed FedEx hub and is on its way to the destination.'
       },
       {
         status: 'Arrived at FedEx Facility',
-        location: 'Chicago, IL',
-        timestamp: '2025-05-07T08:15:00',
+        location: 'Phoenix, AZ',
+        timestamp: '2025-05-11T08:15:00',
         description: 'Package arrived at FedEx sorting facility.'
       },
       {
         status: 'In Transit',
-        location: 'San Francisco, CA',
-        timestamp: '2025-05-06T10:45:00',
+        location: 'San Bernardino, CA',
+        timestamp: '2025-05-10T20:45:00',
         description: 'Package has departed origin facility.'
       },
       {
         status: 'Shipped',
-        location: 'San Francisco, CA',
-        timestamp: '2025-05-05T16:30:00',
+        location: 'San Bernardino, CA',
+        timestamp: '2025-05-10T13:30:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
