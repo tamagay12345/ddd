@@ -8,10 +8,10 @@ const trackingData = {
     destination: 'Waterbury, CT',
     service: 'Express Shipping',
     weight: '5.2 lbs',
-    shipDate: '2025-05-10',
+    shipDate: '2025-05-08',
     items: '1 package',
     currentLocation: 'Phoenix, AZ',
-    lastUpdated: '2025-05-11T14:30:00',
+    lastUpdated: '2025-05-08T20:15:00',
     events: [
       
       {
