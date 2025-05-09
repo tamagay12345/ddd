@@ -17,19 +17,19 @@ const trackingData = {
       {
         status: 'Arrived at FedEx Facility',
         location: 'San Bernardino, CA',
-        timestamp: '2025-05-08T20:15:00',
+        timestamp: '2025-05-08T18:15:00',
         description: 'Package arrived at FedEx sorting facility.'
       },
       {
         status: 'In Transit',
         location: 'San Bernardino, CA',
-        timestamp: '2025-05-08T18:45:00',
+        timestamp: '2025-05-08T16:45:00',
         description: 'Package has departed origin facility.'
       },
       {
         status: 'Shipped',
         location: 'San Bernardino, CA',
-        timestamp: '2025-05-08T13:30:00',
+        timestamp: '2025-05-08T11:30:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
