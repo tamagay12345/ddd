@@ -13,28 +13,23 @@ const trackingData = {
     currentLocation: 'Phoenix, AZ',
     lastUpdated: '2025-05-11T14:30:00',
     events: [
-      {
-        status: 'In Transit',
-        location: 'Phoenix, AZ',
-        timestamp: '2025-05-11T14:30:00',
-        description: 'Package has departed FedEx hub and is on its way to the destination.'
-      },
+      
       {
         status: 'Arrived at FedEx Facility',
-        location: 'Phoenix, AZ',
-        timestamp: '2025-05-11T08:15:00',
+        location: 'San Bernardino, CA',
+        timestamp: '2025-05-08T20:15:00',
         description: 'Package arrived at FedEx sorting facility.'
       },
       {
         status: 'In Transit',
         location: 'San Bernardino, CA',
-        timestamp: '2025-05-10T20:45:00',
+        timestamp: '2025-05-08T18:45:00',
         description: 'Package has departed origin facility.'
       },
       {
         status: 'Shipped',
         location: 'San Bernardino, CA',
-        timestamp: '2025-05-10T13:30:00',
+        timestamp: '2025-05-08T13:30:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
