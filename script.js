@@ -16,7 +16,7 @@ const trackingData = {
       {
         status: 'Package on Hold at FedEx Facility',
         location: 'Phoenix, AZ',
-        timestamp: '2025-05-10T17:45:00',
+        timestamp: '2025-05-10T17:30:00',
         description: 'Your Package is on Hold.'
       },
       {
