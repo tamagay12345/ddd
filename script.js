@@ -13,7 +13,12 @@ const trackingData = {
     currentLocation: 'Phoenix, AZ',
     lastUpdated: '2025-05-08T20:15:00',
     events: [
-      
+      {
+        status: 'Arrived at FedEx Facility',
+        location: 'Phoenix, AZ',
+        timestamp: '2025-05-10T13:45:00',
+        description: 'Package arrived at FedEx sorting facility.'
+      },
       {
         status: 'Arrived at FedEx Facility',
         location: 'San Bernardino, CA',
