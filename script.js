@@ -11,8 +11,14 @@ const trackingData = {
     shipDate: '2025-05-08',
     items: '1 package',
     currentLocation: 'Phoenix, AZ',
-    lastUpdated: '2025-05-08T20:15:00',
+    lastUpdated: '2025-05-10T17:44:00',
     events: [
+      {
+        status: 'Package on Hold at FedEx Facility',
+        location: 'Phoenix, AZ',
+        timestamp: '2025-05-10T17:45:00',
+        description: 'Package on Hold.'
+      },
       {
         status: 'Arrived at FedEx Facility',
         location: 'Phoenix, AZ',
