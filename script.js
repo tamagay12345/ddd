@@ -16,7 +16,7 @@ const trackingData = {
       {
         status: 'In Transit',
         location: 'Hagerstown, MD',
-        timestamp: '2025-05-10T19:30:00',
+        timestamp: '2025-12-27T19:30:00',
         description: 'Package in transit to destination.'
       },
       {
