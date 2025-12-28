@@ -4,7 +4,7 @@ const trackingData = {
     trackingNumber: 'FDX766567854',
     status: 'In Transit',
     estimatedDelivery: '2025-12-29',
-    origin: 'Washington DC',
+    origin: 'Washington, DC',
     destination: 'Pittsburgh PA',
     service: 'Standard Shipping',
     weight: '3.8 lbs',
