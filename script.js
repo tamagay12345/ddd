@@ -2,45 +2,45 @@
 const trackingData = {
   'FDX766567854': {
     trackingNumber: 'FDX766567854',
-    status: 'On Hold',
-    estimatedDelivery: '2025-05-12',
-    origin: 'San Bernardino, CA',
-    destination: 'Waterbury, CT',
-    service: 'Express Shipping',
-    weight: '5.2 lbs',
-    shipDate: '2025-05-08',
+    status: 'In Transit',
+    estimatedDelivery: '2025-12-29',
+    origin: 'Washington DC',
+    destination: 'Pittsburgh PA',
+    service: 'Standard Shipping',
+    weight: '3.8 lbs',
+    shipDate: '2025-12-27',
     items: '1 package',
-    currentLocation: 'Phoenix, AZ',
-    lastUpdated: '2025-05-10T17:44:00',
+    currentLocation: 'Hagerstown, MD',
+    lastUpdated: '2025-12-27T20:10:20',
     events: [
       {
-        status: 'Package on Hold at FedEx Facility',
-        location: 'Phoenix, AZ',
-        timestamp: '2025-05-10T17:30:00',
-        description: 'Your Package is on Hold.'
+        status: 'In Transit',
+        location: 'Hagerstown, MD',
+        timestamp: '2025-05-10T19:30:00',
+        description: 'Package in transit to destination.'
+      },
+      {
+        status: 'Out For Delivery',
+        location: 'Hagerstown, MD',
+        timestamp: '2025-12-27T17:45:00',
+        description: 'Package is out for delivery.'
       },
       {
         status: 'Arrived at FedEx Facility',
-        location: 'Phoenix, AZ',
-        timestamp: '2025-05-10T13:45:00',
-        description: 'Package arrived at FedEx sorting facility.'
-      },
-      {
-        status: 'Arrived at FedEx Facility',
-        location: 'San Bernardino, CA',
-        timestamp: '2025-05-08T18:15:00',
+        location: 'Hagerstown, MD',
+        timestamp: '2025-12-27T15:15:00',
         description: 'Package arrived at FedEx sorting facility.'
       },
       {
         status: 'In Transit',
-        location: 'San Bernardino, CA',
-        timestamp: '2025-05-08T16:45:00',
+        location: 'Washington, DC',
+        timestamp: '2025-12-27T13:45:00',
         description: 'Package has departed origin facility.'
       },
       {
         status: 'Shipped',
-        location: 'San Bernardino, CA',
-        timestamp: '2025-05-08T11:30:00',
+        location: 'Washington, DC',
+        timestamp: '2025-12-27T11:30:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
