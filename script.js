@@ -45,47 +45,37 @@ const trackingData = {
       }
     ]
   },
-  'FDX987654321': {
-    trackingNumber: 'FDX987654321',
-    status: 'Delivered',
-    estimatedDelivery: '2025-05-06',
+  'FDX784593216': {
+    trackingNumber: 'FDX784593216',
+    status: 'In Transit',
+    estimatedDelivery: '2025-12-29',
     origin: 'Boston, MA',
-    destination: 'Austin, TX',
+    destination: 'Pittsburgh, PA',
     service: 'Standard Shipping',
     weight: '3.8 lbs',
-    shipDate: '2025-05-01',
+    shipDate: '2025-12-27',
     items: '1 package',
-    currentLocation: 'Austin, TX',
-    lastUpdated: '2025-05-06T13:45:00',
+    currentLocation: 'Hagerstown, MD',
+    lastUpdated: '2025-12-27T19:20:00',
     events: [
-      {
-        status: 'Delivered',
-        location: 'Austin, TX',
-        timestamp: '2025-05-06T13:45:00',
-        description: 'Package delivered. Signed for by: T.SMITH'
-      },
+      
+      
       {
         status: 'Out For Delivery',
-        location: 'Austin, TX',
-        timestamp: '2025-05-06T08:30:00',
-        description: 'Package is out for delivery.'
-      },
-      {
-        status: 'At Local Facility',
-        location: 'Austin, TX',
-        timestamp: '2025-05-05T19:15:00',
-        description: 'Package arrived at local FedEx facility.'
+        location: 'Hagerstown, MD',
+        timestamp: '2025-05-05T19:15:20',
+        description: Package is out for delivery.'
       },
       {
         status: 'In Transit',
-        location: 'Dallas, TX',
-        timestamp: '2025-05-04T11:30:00',
+        location: 'Washington, DC',
+        timestamp: '2025-12-27T15:30:10',
         description: 'Package in transit to destination.'
       },
       {
         status: 'Shipped',
-        location: 'Boston, MA',
-        timestamp: '2025-05-01T14:20:00',
+        location: 'Washington, DC',
+        timestamp: '2025-12-27T11:20:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
