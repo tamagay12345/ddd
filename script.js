@@ -2,7 +2,7 @@
 const trackingData = {
   'FDX766567854': {
     trackingNumber: 'FDX766567854',
-    status: 'In Transit',
+    status: 'On Hold',
     estimatedDelivery: '2025-12-29',
     origin: 'Washington, DC',
     destination: 'Pittsburgh PA',
@@ -11,8 +11,14 @@ const trackingData = {
     shipDate: '2025-12-27',
     items: '1 package',
     currentLocation: 'Hagerstown, MD',
-    lastUpdated: '2025-12-27T20:10:20',
+    lastUpdated: '2025-12-28T16:45:20',
     events: [
+      {
+        status: 'On Hold',
+        location: 'Hagerstown, MD',
+        timestamp: '2025-12-28T16:10:00',
+        description: 'Your Package is on Hold.'
+      },
       {
         status: 'In Transit',
         location: 'Hagerstown, MD',
