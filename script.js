@@ -8,10 +8,10 @@ const trackingData = {
     destination: 'Cobourg, ON',
     service: 'International Shipping',
     weight: '3.8 lbs',
-    shipDate: '2026-05-04',
+    shipDate: '2026-05-03',
     items: '1 package',
     currentLocation: 'Chicago, IL',
-    lastUpdated: '2026-05-04T20:45:20',
+    lastUpdated: '2026-05-04T13:45:20',
     events: [
       {
         status: 'In Transit',
