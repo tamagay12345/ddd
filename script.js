@@ -1,7 +1,7 @@
 // Sample tracking data (would normally come from a server)
 const trackingData = {
-  'FDX766567854': {
-    trackingNumber: 'FDX8435672214',
+  'FDX835672214': {
+    trackingNumber: 'FDX835672214',
     status: 'In Transit',
     estimatedDelivery: '2026-05-11',
     origin: 'Washington, DC',
