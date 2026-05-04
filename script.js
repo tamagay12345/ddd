@@ -1,52 +1,52 @@
 // Sample tracking data (would normally come from a server)
 const trackingData = {
   'FDX766567854': {
-    trackingNumber: 'FDX766567854',
-    status: 'On Hold',
-    estimatedDelivery: '2025-12-29',
+    trackingNumber: 'FDX8435672214',
+    status: 'In Transit',
+    estimatedDelivery: '2026-05-11',
     origin: 'Washington, DC',
-    destination: 'Pittsburgh PA',
-    service: 'Standard Shipping',
+    destination: 'Cobourg, ON',
+    service: 'International Shipping',
     weight: '3.8 lbs',
-    shipDate: '2025-12-27',
+    shipDate: '2026-05-04',
     items: '1 package',
-    currentLocation: 'Hagerstown, MD',
-    lastUpdated: '2025-12-28T16:45:20',
+    currentLocation: 'Chicago, IL',
+    lastUpdated: '2026-05-04T20:45:20',
     events: [
       {
-        status: 'On Hold',
-        location: 'Hagerstown, MD',
-        timestamp: '2025-12-28T16:10:00',
-        description: 'Your Package is on Hold.'
+        status: 'In Transit',
+        location: 'Chicago, IL',
+        timestamp: '2026-05-04T20:10:00',
+        description: 'Package Departed FedEx hub.'
       },
       {
         status: 'In Transit',
-        location: 'Hagerstown, MD',
-        timestamp: '2025-12-27T19:30:00',
+        location: 'Portland, OR',
+        timestamp: '2026-05-04T17:30:00',
         description: 'Package in transit to destination.'
       },
       {
         status: 'Out For Delivery',
-        location: 'Hagerstown, MD',
-        timestamp: '2025-12-27T17:45:00',
+        location: 'Portland, OR',
+        timestamp: '2026-05-04T16:45:00',
         description: 'Package is out for delivery.'
       },
       {
         status: 'Arrived at FedEx Facility',
-        location: 'Hagerstown, MD',
-        timestamp: '2025-12-27T15:15:00',
+        location: 'Portland, OR',
+        timestamp: '2026-05-04T12:15:00',
         description: 'Package arrived at FedEx sorting facility.'
       },
       {
         status: 'In Transit',
         location: 'Washington, DC',
-        timestamp: '2025-12-27T13:45:00',
+        timestamp: '2026-05-04T09:45:00',
         description: 'Package has departed origin facility.'
       },
       {
         status: 'Shipped',
         location: 'Washington, DC',
-        timestamp: '2025-12-27T11:30:00',
+        timestamp: '2026-05-02T15:30:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
