@@ -16,7 +16,7 @@ const trackingData = {
       {
         status: 'In Transit',
         location: 'Chicago, IL',
-        timestamp: '2026-05-04T20:13:00',
+        timestamp: '2026-05-04T13:20:00',
         description: 'Package Departed FedEx hub.'
       },
       {
