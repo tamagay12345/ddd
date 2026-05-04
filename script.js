@@ -16,37 +16,37 @@ const trackingData = {
       {
         status: 'In Transit',
         location: 'Chicago, IL',
-        timestamp: '2026-05-04T20:10:00',
+        timestamp: '2026-05-04T20:13:00',
         description: 'Package Departed FedEx hub.'
       },
       {
         status: 'In Transit',
         location: 'Portland, OR',
-        timestamp: '2026-05-04T17:30:00',
+        timestamp: '2026-05-04T11:30:00',
         description: 'Package in transit to destination.'
       },
       {
         status: 'Out For Delivery',
         location: 'Portland, OR',
-        timestamp: '2026-05-04T16:45:00',
+        timestamp: '2026-05-04T10:00:00',
         description: 'Package is out for delivery.'
       },
       {
         status: 'Arrived at FedEx Facility',
         location: 'Portland, OR',
-        timestamp: '2026-05-04T12:15:00',
+        timestamp: '2026-05-02T16:15:00',
         description: 'Package arrived at FedEx sorting facility.'
       },
       {
         status: 'In Transit',
         location: 'Washington, DC',
-        timestamp: '2026-05-04T09:45:00',
+        timestamp: '2026-05-02T12:45:00',
         description: 'Package has departed origin facility.'
       },
       {
         status: 'Shipped',
         location: 'Washington, DC',
-        timestamp: '2026-05-02T15:30:00',
+        timestamp: '2026-05-02T09:30:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
