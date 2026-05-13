@@ -53,45 +53,40 @@ const trackingData = {
   },
   'FDX784593216': {
     trackingNumber: 'FDX784593216',
-    status: 'Delivered',
-    estimatedDelivery: '2025-05-06',
-    origin: 'Boston, MA',
-    destination: 'Austin, TX',
+    status: 'In Transit',
+    estimatedDelivery: '2026-05-16',
+    origin: 'Flushing, NY',
+    destination: 'San Antonio, TX',
     service: 'Standard Shipping',
     weight: '3.8 lbs',
-    shipDate: '2025-05-01',
+    shipDate: '2026-05-13',
     items: '1 package',
-    currentLocation: 'Austin, TX',
-    lastUpdated: '2025-05-06T13:45:00',
+    currentLocation: 'Queens, NY',
+    lastUpdated: '2026-05-13T13:30:00',
     events: [
+    
       {
-        status: 'Delivered',
-        location: 'Austin, TX',
-        timestamp: '2025-05-06T13:45:00',
-        description: 'Package delivered. Signed for by: T.SMITH'
-      },
-      {
-        status: 'Out For Delivery',
-        location: 'Austin, TX',
-        timestamp: '2025-05-06T08:30:00',
+        status: 'In Transit',
+        location: 'Queens, NY',
+        timestamp: '2026-05-13T13:25:00',
         description: 'Package is out for delivery.'
       },
       {
-        status: 'At Local Facility',
-        location: 'Austin, TX',
-        timestamp: '2025-05-05T19:15:00',
+        status: 'Arrived at Facility',
+        location: 'Queens, NY',
+        timestamp: '2026-05-13T12:15:00',
         description: 'Package arrived at local FedEx facility.'
       },
       {
-        status: 'In Transit',
-        location: 'Dallas, TX',
-        timestamp: '2025-05-04T11:30:00',
-        description: 'Package in transit to destination.'
+        status: 'Picked Up',
+        location: 'Flushing, NY',
+        timestamp: '2026-05-13T11:30:00',
+        description: 'Package picked up by carrier.'
       },
       {
-        status: 'Shipped',
-        location: 'Boston, MA',
-        timestamp: '2025-05-01T14:20:00',
+        status: 'Shipment Information Sent',
+        location: 'Flushing, NY',
+        timestamp: '2026-05-13T09:20:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
