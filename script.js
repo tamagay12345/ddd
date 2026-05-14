@@ -64,7 +64,12 @@ const trackingData = {
     currentLocation: 'Queens, NY',
     lastUpdated: '2026-05-13T13:30:00',
     events: [
-    
+    {
+        status: 'Arrived at Facility',
+        location: 'Memphis, TN',
+        timestamp: '2026-05-14T11:35:00',
+        description: 'Package arrived at FedEx facility.'
+      },
       {
         status: 'In Transit',
         location: 'Queens, NY',
