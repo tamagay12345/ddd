@@ -61,10 +61,16 @@ const trackingData = {
     weight: '3.8 lbs',
     shipDate: '2026-05-13',
     items: '1 package',
-    currentLocation: 'Queens, NY',
-    lastUpdated: '2026-05-13T13:30:00',
+    currentLocation: 'Memphis, TN',
+    lastUpdated: '2026-05-14T17:30:00',
     events: [
     {
+        status: 'In Transit',
+        location: 'Memphis, TN',
+        timestamp: '2026-05-14T16:50:00',
+        description: 'Package in transit to destination.'
+      },
+      {
         status: 'Arrived at Facility',
         location: 'Memphis, TN',
         timestamp: '2026-05-14T11:35:00',
