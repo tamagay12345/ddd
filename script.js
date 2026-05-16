@@ -54,7 +54,7 @@ const trackingData = {
   'FDX784593216': {
     trackingNumber: 'FDX784593216',
     status: 'In Transit',
-    estimatedDelivery: '2026-05-16',
+    estimatedDelivery: '2026-05-17',
     origin: 'Flushing, NY',
     destination: 'San Antonio, TX',
     service: 'Standard Shipping',
