@@ -66,6 +66,12 @@ const trackingData = {
     events: [
     {
         status: 'In Transit',
+        location: 'Forth Worth, TX',
+        timestamp: '2026-05-16T15:50:00',
+        description: 'Package in transit to destination.'
+      },
+      {
+        status: 'In Transit',
         location: 'Memphis, TN',
         timestamp: '2026-05-14T16:50:00',
         description: 'Package in transit to destination.'
