@@ -61,8 +61,8 @@ const trackingData = {
     weight: '3.8 lbs',
     shipDate: '2026-05-13',
     items: '1 package',
-    currentLocation: 'Memphis, TN',
-    lastUpdated: '2026-05-14T17:30:00',
+    currentLocation: 'Fort Worth, TX',
+    lastUpdated: '2026-05-16T16:00:00',
     events: [
     {
         status: 'In Transit',
