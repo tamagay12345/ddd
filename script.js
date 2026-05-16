@@ -59,7 +59,7 @@ const trackingData = {
     destination: 'San Antonio, TX',
     service: 'Standard Shipping',
     weight: '3.8 lbs',
-    shipDate: '2026-05-13',
+    shipDate: '2026-05-14',
     items: '1 package',
     currentLocation: 'Fort Worth, TX',
     lastUpdated: '2026-05-16T16:00:00',
