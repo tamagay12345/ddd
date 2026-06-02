@@ -62,7 +62,7 @@ const trackingData = {
     shipDate: '2026-06-02',
     items: '1 package',
     currentLocation: 'Detroit, MI',
-    lastUpdated: '2026-06-02T16:00:00',
+    lastUpdated: '2026-06-02T13:27:00',
     events: [
     {
         status: 'In Transit',
