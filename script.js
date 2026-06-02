@@ -52,58 +52,40 @@ const trackingData = {
     ]
   },
   'FDX784593216': {
-    trackingNumber: 'FDX784593216',
+    trackingNumber: 'FDX446515772',
     status: 'In Transit',
-    estimatedDelivery: '2026-05-17',
-    origin: 'Flushing, NY',
-    destination: 'San Antonio, TX',
+    estimatedDelivery: '2026-06-06',
+    origin: 'Michigan, US',
+    destination: 'Co. Westmeath, IR',
     service: 'Standard Shipping',
     weight: '3.8 lbs',
-    shipDate: '2026-05-14',
+    shipDate: '2026-06-02',
     items: '1 package',
-    currentLocation: 'Fort Worth, TX',
-    lastUpdated: '2026-05-16T16:00:00',
+    currentLocation: 'Detroit, MI',
+    lastUpdated: '2026-06-02T16:00:00',
     events: [
     {
         status: 'In Transit',
-        location: 'Fort Worth, TX',
-        timestamp: '2026-05-16T15:50:00',
-        description: 'Package in transit to destination.'
-      },
-      {
-        status: 'In Transit',
-        location: 'Memphis, TN',
-        timestamp: '2026-05-14T16:50:00',
-        description: 'Package in transit to destination.'
-      },
-      {
-        status: 'Arrived at Facility',
-        location: 'Memphis, TN',
-        timestamp: '2026-05-14T11:35:00',
-        description: 'Package arrived at FedEx facility.'
-      },
-      {
-        status: 'In Transit',
-        location: 'Queens, NY',
-        timestamp: '2026-05-13T13:25:00',
+        location: 'Romulus, MI',
+        timestamp: '2026-06-02T13:25:00',
         description: 'Package is out for delivery.'
       },
       {
         status: 'Arrived at Facility',
-        location: 'Queens, NY',
-        timestamp: '2026-05-13T12:15:00',
+        location: 'Romulus, MI',
+        timestamp: '2026-06-02T12:15:00',
         description: 'Package arrived at local FedEx facility.'
       },
       {
         status: 'Picked Up',
-        location: 'Flushing, NY',
-        timestamp: '2026-05-13T11:30:00',
+        location: 'Detroit, MI',
+        timestamp: '2026-06-02T11:30:00',
         description: 'Package picked up by carrier.'
       },
       {
         status: 'Shipment Information Sent',
-        location: 'Flushing, NY',
-        timestamp: '2026-05-13T09:20:00',
+        location: 'Detroit, MI',
+        timestamp: '2026-06-02T09:20:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
