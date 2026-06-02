@@ -56,7 +56,7 @@ const trackingData = {
     status: 'In Transit',
     estimatedDelivery: '2026-06-06',
     origin: 'Michigan, US',
-    destination: 'Co. Westmeath, IR',
+    destination: 'Co. Westmeath, Ireland',
     service: 'Standard Shipping',
     weight: '3.8 lbs',
     shipDate: '2026-06-02',
