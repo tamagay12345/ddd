@@ -62,9 +62,21 @@ const trackingData = {
     shipDate: '2026-06-02',
     items: '1 package',
     currentLocation: 'Detroit, MI',
-    lastUpdated: '2026-06-02T13:27:00',
+    lastUpdated: '2026-06-03T10:30:00',
     events: [
     {
+        status: 'In Transit',
+        location: 'Indianapolis, IN',
+        timestamp: '2026-06-03T10:05:00',
+        description: 'Package departed international processing hub.'
+      },
+      {
+        status: 'Arrived at Facility',
+        location: 'Indianapolis, IN',
+        timestamp: '2026-06-02T21:30:00',
+        description: 'Package arrived at carrier hub for international processing.'
+      },
+      {
         status: 'In Transit',
         location: 'Romulus, MI',
         timestamp: '2026-06-02T13:25:00',
