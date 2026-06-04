@@ -74,7 +74,7 @@ const trackingData = {
         status: 'In Transit',
         location: 'Newark, NJ',
         timestamp: '2026-06-03T17:05:00',
-        description: ''Package arrived at international carrier facility.'
+        description: ''Package arrived at carrier facility.'
       },
       {
         status: 'In Transit',
