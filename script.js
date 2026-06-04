@@ -53,7 +53,7 @@ const trackingData = {
   },
   'FDX446515772': {
     trackingNumber: 'FDX446515772',
-    status: 'In Transit',
+    status: 'On Hold',
     estimatedDelivery: '2026-06-06',
     origin: 'Michigan, US',
     destination: 'Co. Westmeath, Ireland',
@@ -62,9 +62,15 @@ const trackingData = {
     shipDate: '2026-06-02',
     items: '1 package',
     currentLocation: 'Detroit, MI',
-    lastUpdated: '2026-06-04T11:40:00',
+    lastUpdated: '2026-06-04T18:30:00',
     events: [
    {
+        status: 'On Hold',
+        location: 'Newark, NJ',
+        timestamp: '2026-06-04T18:00:00',
+        description: 'Shipment is currently on hold pending international clearance.'
+      },
+      {
         status: 'In Transit',
         location: 'Newark, NJ',
         timestamp: '2026-06-04T11:00:00',
