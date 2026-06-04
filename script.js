@@ -67,6 +67,12 @@ const trackingData = {
    {
         status: 'In Transit',
         location: 'Newark, NJ',
+        timestamp: '2026-06-04T11:00:00',
+        description: 'Documentaion and international shipment processing.'
+      },
+      {
+        status: 'In Transit',
+        location: 'Newark, NJ',
         timestamp: '2026-06-03T17:20:00',
         description: 'Package arrived at international carrier.'
       },
