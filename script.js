@@ -64,19 +64,7 @@ const trackingData = {
     currentLocation: 'Detroit, MI',
     lastUpdated: '2026-06-04T11:40:00',
     events: [
-    {
-        status: 'In Transit',
-        location: 'Newark, NJ',
-        timestamp: '2026-06-04T11:20:00',
-        description: 'Export documentation and shipment processing.'
-      },
-      {
-        status: 'In Transit',
-        location: 'Newark, NJ',
-        timestamp: '2026-06-03T17:05:00',
-        description: ''Package arrived at carrier facility.'
-      },
-      {
+   {
         status: 'In Transit',
         location: 'Indianapolis, IN',
         timestamp: '2026-06-03T10:05:00',
