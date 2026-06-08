@@ -53,18 +53,24 @@ const trackingData = {
   },
   'FDX446515772': {
     trackingNumber: 'FDX446515772',
-    status: 'On Hold',
-    estimatedDelivery: '2026-06-06',
+    status: 'In Transit',
+    estimatedDelivery: '2026-06-12',
     origin: 'Michigan, US',
     destination: 'Co. Westmeath, Ireland',
     service: 'Standard Shipping',
     weight: '3.8 lbs',
     shipDate: '2026-06-02',
     items: '1 package',
-    currentLocation: 'Detroit, MI',
-    lastUpdated: '2026-06-04T18:30:00',
+    currentLocation: 'Atlantic Ocean',
+    lastUpdated: '2026-06-08T10:30:00',
     events: [
    {
+        status: 'In Transit',
+        location: 'Atlantic Ocean',
+        timestamp: '2026-06-08T09:20:00',
+        description: 'Package departed international gateway and is in transit to destination country.'
+      },
+      {
         status: 'On Hold',
         location: 'Newark, NJ',
         timestamp: '2026-06-04T18:00:00',
