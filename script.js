@@ -61,10 +61,22 @@ const trackingData = {
     weight: '3.8 lbs',
     shipDate: '2026-06-02',
     items: '1 package',
-    currentLocation: 'Atlantic Ocean',
-    lastUpdated: '2026-06-08T10:30:00',
+    currentLocation: 'Dublin, Ireland',
+    lastUpdated: '2026-06-09T14:00:00',
     events: [
    {
+        status: 'On Hold',
+        location: 'Dublin, Ireland',
+        timestamp: '2026-06-09T13:50:00',
+        description: 'Package on hold for custom clearance.'
+      },
+      {
+        status: 'Arrived at Facility',
+        location: 'Dublin, Ireland',
+        timestamp: '2026-06-09T11:30:00',
+        description: 'Package arrived at destination country sorting facility.'
+      },
+      {
         status: 'In Transit',
         location: 'Atlantic Ocean',
         timestamp: '2026-06-08T09:20:00',
