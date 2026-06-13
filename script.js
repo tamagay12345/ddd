@@ -53,8 +53,8 @@ const trackingData = {
   },
   'FDX446515772': {
     trackingNumber: 'FDX446515772',
-    status: 'On Hold',
-    estimatedDelivery: '2026-06-12',
+    status: 'In Transit',
+    estimatedDelivery: '2026-06-17',
     origin: 'Michigan, US',
     destination: 'Co. Westmeath, Ireland',
     service: 'Standard Shipping',
@@ -62,9 +62,21 @@ const trackingData = {
     shipDate: '2026-06-02',
     items: '1 package',
     currentLocation: 'Dublin, Ireland',
-    lastUpdated: '2026-06-09T14:00:00',
+    lastUpdated: '2026-06-13T15:00:00',
     events: [
    {
+        status: 'In Transit',
+        location: 'Dublin, Ireland',
+        timestamp: '2026-06-13T14:30:00',
+        description: 'Package is in transit to local delivery facility.'
+      },
+      {
+        status: 'Customs Clearance',
+        location: 'Dublin, Ireland',
+        timestamp: '2026-06-13T10:25:00',
+        description: ''Customs processing completed. Package transferred to local distribution network.'
+      },
+      {
         status: 'On Hold',
         location: 'Dublin, Ireland',
         timestamp: '2026-06-09T13:50:00',
