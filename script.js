@@ -74,7 +74,7 @@ const trackingData = {
         status: 'Customs Clearance',
         location: 'Dublin, Ireland',
         timestamp: '2026-06-13T10:25:00',
-        description: ''Clearance processing completed and proceed to local distribution network.'
+        description: 'Clearance processing completed and proceed to local distribution network.'
       },
       {
         status: 'On Hold',
