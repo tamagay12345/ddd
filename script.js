@@ -1,57 +1,39 @@
 // Sample tracking data (would normally come from a server)
 const trackingData = {
-  'FDX8356722': {
-    trackingNumber: 'FDX8356722',
+  'FDX443315462': {
+    trackingNumber: 'FDX443315462',
     status: 'In Transit',
-    estimatedDelivery: '2026-05-16',
+    estimatedDelivery: '2026-07-09',
     origin: 'Washington, DC',
-    destination: 'Cobourg, ON',
-    service: 'International Shipping',
+    destination: 'Pittsburgh, PA',
+    service: 'Standard Shipping',
     weight: '3.8 lbs',
-    shipDate: '2026-05-03',
+    shipDate: '2026-06-29',
     items: '1 package',
     currentLocation: 'Chicago, IL',
-    lastUpdated: '2026-05-04T13:45:20',
+    lastUpdated: '2026-06-29T13:45:20',
     events: [
-      {
-        status: 'In Transit',
-        location: 'Chicago, IL',
-        timestamp: '2026-05-04T13:20:00',
-        description: 'Package Departed FedEx hub.'
-      },
-      {
-        status: 'In Transit',
-        location: 'Portland, OR',
-        timestamp: '2026-05-04T11:30:00',
-        description: 'Package in transit to destination.'
-      },
-      {
-        status: 'Out For Delivery',
-        location: 'Portland, OR',
-        timestamp: '2026-05-04T10:00:00',
-        description: 'Package is out for delivery.'
-      },
       {
         status: 'Arrived at FedEx Facility',
         location: 'Portland, OR',
-        timestamp: '2026-05-02T16:15:00',
+        timestamp: '2026-06-09T16:15:00',
         description: 'Package arrived at FedEx sorting facility.'
       },
       {
         status: 'In Transit',
         location: 'Washington, DC',
-        timestamp: '2026-05-02T12:45:00',
+        timestamp: '2026-06-09T12:45:00',
         description: 'Package has departed origin facility.'
       },
       {
-        status: 'Shipped',
+        status: 'Shipment Information Sent',
         location: 'Washington, DC',
-        timestamp: '2026-05-02T09:30:00',
+        timestamp: '2026-06-09T09:30:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
   },
-  'FDX446515772': {
+  'FDX4465772': {
     trackingNumber: 'FDX446515772',
     status: 'On Hold',
     estimatedDelivery: '2026-06-17',
