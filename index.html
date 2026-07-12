@@ -2,268 +2,807 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FedEx® - Package Tracking Platform</title>
-  <meta name="description" content="FedEx® - Real-time package tracking and shipping services with FedEx-inspired reliability.">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
+
+  <meta
+    name="description"
+    content="Register for Greenfields Pinnacle School Summer Fun 2026 or Free Holiday Lessons in Abuja."
+  >
+
+  <meta name="theme-color" content="#fffaf4">
+
+  <title>Summer Fun 2026 | Greenfields Pinnacle School</title>
+
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <div class="header-content">
-        <div class="logo">
-          <img src="images/fedlogo.png" alt="FedEx Logo" width="150">
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Track</a></li>
-            <li><a href="#">Ship</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Support</a></li>
-          </ul>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div id="website">
+    <div class="announcement" id="announcement"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Greenfields Pinnacle School home">
+          <span class="brand-mark" aria-hidden="true">GP</span>
+
+          <span class="brand-copy">
+            <strong>Greenfields Pinnacle School</strong>
+            <small>Diligent Hands</small>
+          </span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <button
+            class="event-tab is-active"
+            type="button"
+            data-event="summer"
+            aria-pressed="true"
+          >
+            SUMMER FUN 2026
+          </button>
+
+          <button
+            class="event-tab"
+            type="button"
+            data-event="holiday"
+            aria-pressed="false"
+          >
+            FREE HOLIDAY LESSONS
+          </button>
+
+          <a class="nav-link" href="#activities">Activities</a>
+          <a class="nav-link" href="#benefits">Benefits</a>
+          <a class="nav-link" href="#programme-details">Programme details</a>
+          <a class="nav-link" href="#faq">FAQ</a>
+
+          <a class="button header-register" href="#registration">
+            Register now
+          </a>
         </nav>
-        <div class="auth-buttons">
-          <button class="btn btn-outline">Sign In</button>
+
+        <button
+          class="menu-button"
+          id="menuButton"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobileNav"
+          aria-label="Open navigation menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+        <button
+          class="event-tab is-active"
+          type="button"
+          data-event="summer"
+          aria-pressed="true"
+        >
+          SUMMER FUN 2026
+        </button>
+
+        <button
+          class="event-tab"
+          type="button"
+          data-event="holiday"
+          aria-pressed="false"
+        >
+          FREE HOLIDAY LESSONS
+        </button>
+
+        <a href="#activities">Activities</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#programme-details">Programme details</a>
+        <a href="#faq">Frequently asked questions</a>
+        <a class="button" href="#registration">Register now</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow" id="heroEyebrow"></span>
+
+            <h1 id="heroTitle"></h1>
+
+            <p class="hero-lead" id="heroLead"></p>
+
+            <div class="hero-actions">
+              <a class="button" href="#registration">
+                Register your child
+              </a>
+
+              <a class="button button--secondary" href="#programme-details">
+                View programme details
+              </a>
+            </div>
+
+            <div class="hero-facts" id="heroFacts"></div>
+          </div>
+
+          <div class="hero-poster-shell">
+            <div class="poster-frame">
+              <img
+                id="eventPoster"
+                src="assets/summer-fun-2026.jpg"
+                alt="Greenfields Pinnacle School event flyer"
+                width="1020"
+                height="1280"
+                loading="eager"
+              >
+
+              <div class="poster-fallback" id="posterFallback" hidden>
+                <div>
+                  <strong id="posterFallbackTitle">Event flyer</strong>
+
+                  <p>
+                    Add the event flyer to the correct location inside the
+                    <code>assets</code> folder.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="poster-note" id="posterNote"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-strip" aria-label="Event information">
+        <div class="container">
+          <div class="quick-strip-grid" id="quickStrip"></div>
+        </div>
+      </section>
+
+      <section class="section" id="activities">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Programme activities</span>
+
+            <h2 id="activitiesTitle"></h2>
+
+            <p id="activitiesIntroduction"></p>
+          </div>
+
+          <div class="session-grid" id="sessionsGrid"></div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="benefits">
+        <div class="container benefits-layout">
+          <div class="benefits-intro">
+            <span class="eyebrow" id="benefitsEyebrow"></span>
+
+            <h2 id="benefitsTitle"></h2>
+
+            <p id="benefitsIntroduction"></p>
+          </div>
+
+          <div class="benefits-grid" id="benefitsGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="programme-details">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Programme details</span>
+            <h2 id="detailsTitle"></h2>
+          </div>
+
+          <div class="details-layout">
+            <div>
+              <dl class="detail-list" id="detailList"></dl>
+            </div>
+
+            <aside class="fee-card" aria-label="Programme fee">
+              <small>Programme fee</small>
+
+              <span class="fee-amount" id="feeAmount"></span>
+
+              <p id="feeDescription"></p>
+
+              <ul class="included-list" id="includedList"></ul>
+
+              <a class="button button--light button--wide" href="#registration">
+                Reserve a place
+              </a>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft">
+        <div class="container trust-grid">
+          <div class="trust-copy">
+            <span class="eyebrow" id="trustEyebrow"></span>
+
+            <h2 id="trustTitle"></h2>
+
+            <p id="trustIntroduction"></p>
+          </div>
+
+          <div class="trust-list" id="trustList"></div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Frequently asked questions</span>
+            <h2>Helpful information before you register</h2>
+          </div>
+
+          <div class="faq-list" id="faqList"></div>
+        </div>
+      </section>
+
+      <section class="section section--plum" id="registration">
+        <div class="container">
+          <div class="registration-intro">
+            <div>
+              <span class="eyebrow" style="color: #ffd8c7;">
+                Registration form
+              </span>
+
+              <h2 id="registrationTitle"></h2>
+
+              <p id="registrationIntroduction"></p>
+            </div>
+
+            <div class="registration-contact">
+              <small>Registration enquiries</small>
+              <a href="tel:+2348032193527">0803 219 3527</a>
+              <a href="tel:+2347039688508">0703 968 8508</a>
+            </div>
+          </div>
+
+          <form class="registration-form" id="registrationForm" novalidate>
+            <div class="form-progress" aria-hidden="true">
+              <span>Parent details</span>
+              <span>Child details</span>
+              <span>Health and safety</span>
+              <span>Consent</span>
+            </div>
+
+            <div class="form-body">
+              <div class="form-message" id="formMessage" role="alert"></div>
+
+              <fieldset>
+                <legend>Parent or guardian information</legend>
+
+                <div class="form-grid">
+                  <div class="form-field">
+                    <label for="parentName">
+                      Full name <span class="required">*</span>
+                    </label>
+
+                    <input
+                      id="parentName"
+                      name="parentName"
+                      type="text"
+                      autocomplete="name"
+                      placeholder="Parent or guardian's full name"
+                      required
+                    >
+                  </div>
+
+                  <div class="form-field">
+                    <label for="phone">
+                      Phone number <span class="required">*</span>
+                    </label>
+
+                    <input
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      autocomplete="tel"
+                      inputmode="tel"
+                      placeholder="0800 000 0000"
+                      pattern="[0-9+() -]{8,20}"
+                      required
+                    >
+                  </div>
+
+                  <div class="form-field">
+                    <label for="whatsapp">
+                      WhatsApp number <span class="required">*</span>
+                    </label>
+
+                    <input
+                      id="whatsapp"
+                      name="whatsapp"
+                      type="tel"
+                      inputmode="tel"
+                      placeholder="0800 000 0000"
+                      pattern="[0-9+() -]{8,20}"
+                      required
+                    >
+                  </div>
+
+                  <div class="form-field">
+                    <label for="email">
+                      Email address <span class="required">*</span>
+                    </label>
+
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      autocomplete="email"
+                      placeholder="parent@example.com"
+                      required
+                    >
+                  </div>
+
+                  <div class="form-field form-field--full">
+                    <label for="address">
+                      Residential address <span class="required">*</span>
+                    </label>
+
+                    <textarea
+                      id="address"
+                      name="address"
+                      autocomplete="street-address"
+                      placeholder="Enter the residential address"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend>Child’s information</legend>
+
+                <div class="form-grid">
+                  <div class="form-field">
+                    <label for="childName">
+                      Child’s full name <span class="required">*</span>
+                    </label>
+
+                    <input
+                      id="childName"
+                      name="childName"
+                      type="text"
+                      placeholder="Child's full name"
+                      required
+                    >
+                  </div>
+
+                  <div class="form-field">
+                    <label for="gender">
+                      Gender <span class="required">*</span>
+                    </label>
+
+                    <select id="gender" name="gender" required>
+                      <option value="">Select gender</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                    </select>
+                  </div>
+
+                  <div class="form-field">
+                    <label for="dateOfBirth">
+                      Date of birth <span class="required">*</span>
+                    </label>
+
+                    <input
+                      id="dateOfBirth"
+                      name="dateOfBirth"
+                      type="date"
+                      required
+                    >
+                  </div>
+
+                  <div class="form-field">
+                    <label for="age">
+                      Age <span class="required">*</span>
+                    </label>
+
+                    <input
+                      id="age"
+                      name="age"
+                      type="number"
+                      placeholder="Calculated from date of birth"
+                      readonly
+                      required
+                    >
+
+                    <span class="field-help" id="ageHelp">
+                      Age is calculated automatically.
+                    </span>
+                  </div>
+
+                  <div class="form-field">
+                    <label for="currentSchool">
+                      Current school <span class="required">*</span>
+                    </label>
+
+                    <input
+                      id="currentSchool"
+                      name="currentSchool"
+                      type="text"
+                      placeholder="Name of child's current school"
+                      required
+                    >
+                  </div>
+
+                  <div class="form-field">
+                    <label for="currentClass">
+                      Current class <span class="required">*</span>
+                    </label>
+
+                    <input
+                      id="currentClass"
+                      name="currentClass"
+                      type="text"
+                      placeholder="Example: Primary 5"
+                      required
+                    >
+                  </div>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend>Programme registration</legend>
+
+                <div class="programme-box">
+                  <div>
+                    <strong id="formProgrammeName"></strong>
+                    <span id="formProgrammeDescription"></span>
+                  </div>
+
+                  <div class="programme-tick" aria-label="Programme selected">
+                    ✓
+                  </div>
+                </div>
+
+                <input
+                  id="programmeInput"
+                  type="hidden"
+                  name="programme"
+                  value="Summer Fun 2026"
+                >
+
+                <div style="margin-top: 23px;">
+                  <span class="group-label">
+                    Which activities is your child most interested in?
+                  </span>
+
+                  <div
+                    class="choice-group"
+                    id="activityChoices"
+                    style="margin-top: 10px;"
+                  ></div>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend>Learning experience</legend>
+
+                <div class="form-field">
+                  <span class="group-label">
+                    Has your child attended similar classes or support sessions
+                    before? <span class="required">*</span>
+                  </span>
+
+                  <div class="choice-group">
+                    <div class="choice">
+                      <input
+                        id="experienceYes"
+                        name="hasExperience"
+                        type="radio"
+                        value="Yes"
+                        required
+                      >
+                      <label for="experienceYes">Yes</label>
+                    </div>
+
+                    <div class="choice">
+                      <input
+                        id="experienceNo"
+                        name="hasExperience"
+                        type="radio"
+                        value="No"
+                        required
+                      >
+                      <label for="experienceNo">No</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="form-field"
+                  id="experienceDetailsField"
+                  style="margin-top: 20px;"
+                  hidden
+                >
+                  <label for="experienceDetails">
+                    Please provide brief details
+                  </label>
+
+                  <textarea
+                    id="experienceDetails"
+                    name="experienceDetails"
+                    placeholder="Describe the previous classes, activities or support sessions"
+                  ></textarea>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend>Medical and emergency information</legend>
+
+                <div class="form-grid">
+                  <div class="form-field form-field--full">
+                    <label for="medical">
+                      Allergies, medical conditions or additional support needs
+                    </label>
+
+                    <textarea
+                      id="medical"
+                      name="medical"
+                      placeholder="Enter relevant information. Write 'None' when not applicable."
+                    ></textarea>
+                  </div>
+
+                  <div class="form-field">
+                    <label for="emergencyName">
+                      Emergency contact name
+                      <span class="required">*</span>
+                    </label>
+
+                    <input
+                      id="emergencyName"
+                      name="emergencyName"
+                      type="text"
+                      placeholder="Full name"
+                      required
+                    >
+                  </div>
+
+                  <div class="form-field">
+                    <label for="emergencyRelationship">
+                      Relationship <span class="required">*</span>
+                    </label>
+
+                    <input
+                      id="emergencyRelationship"
+                      name="emergencyRelationship"
+                      type="text"
+                      placeholder="Example: Aunt, Uncle or Family Friend"
+                      required
+                    >
+                  </div>
+
+                  <div class="form-field">
+                    <label for="emergencyPhone">
+                      Emergency phone number
+                      <span class="required">*</span>
+                    </label>
+
+                    <input
+                      id="emergencyPhone"
+                      name="emergencyPhone"
+                      type="tel"
+                      inputmode="tel"
+                      pattern="[0-9+() -]{8,20}"
+                      placeholder="0800 000 0000"
+                      required
+                    >
+                  </div>
+
+                  <div class="form-field" id="paymentArea"></div>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend>Parent consent</legend>
+
+                <div class="consent-box">
+                  <input
+                    id="parentConsent"
+                    name="parentConsent"
+                    type="checkbox"
+                    value="Agreed"
+                    required
+                  >
+
+                  <label for="parentConsent">
+                    I certify that the information provided is accurate and
+                    complete. I authorize my child to participate in the
+                    selected Greenfields Pinnacle School programme and agree to
+                    follow the programme guidelines.
+                    <span class="required">*</span>
+                  </label>
+                </div>
+
+                <div class="consent-box">
+                  <input
+                    id="photoOptOut"
+                    name="photoOptOut"
+                    type="checkbox"
+                    value="Opted out"
+                  >
+
+                  <label for="photoOptOut">
+                    I do not want photographs or videos of my child to be used
+                    by the school for educational or promotional purposes.
+                    Leave this unchecked when permission is granted.
+                  </label>
+                </div>
+              </fieldset>
+
+              <div class="submit-area">
+                <p class="submission-note">
+                  <strong>How submission works:</strong>
+                  the website prepares a WhatsApp message containing the
+                  registration details for you to review and send directly to
+                  the school.
+                </p>
+
+                <button class="button" type="submit">
+                  Register my child
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <div class="container">
+          <h2 id="finalCtaTitle"></h2>
+
+          <p id="finalCtaText"></p>
+
+          <a class="button" href="#registration">
+            Complete registration
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <span class="footer-heading">Greenfields Pinnacle School</span>
+
+            <p>
+              A child-focused learning environment committed to creativity,
+              confidence, practical education and diligent learning.
+            </p>
+          </div>
+
+          <div>
+            <span class="footer-heading">Contact and social media</span>
+
+            <div class="footer-links">
+              <a href="tel:+2348032193527">0803 219 3527</a>
+              <a href="tel:+2347039688508">0703 968 8508</a>
+
+              <a
+                href="https://wa.me/2348032193527"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contact admissions on WhatsApp
+              </a>
+
+              <a
+                href="https://www.instagram.com/greenfieldspinnacleschoolabuja/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram: @greenfieldspinnacleschoolabuja
+              </a>
+
+              <span>
+                Facebook: Greenfields Pinnacle School, Abuja
+              </span>
+            </div>
+          </div>
+
+          <div>
+            <span class="footer-heading">Venue</span>
+
+            <div class="footer-links">
+              <address>
+                CBN CHOOS Estate<br>
+                Wumba, Apo-Lokogoma Road<br>
+                Abuja, Nigeria
+              </address>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>
+            © <span id="currentYear"></span>
+            Greenfields Pinnacle School.
+          </span>
+
+          <span id="footerProgrammeName">Summer Fun 2026</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="mobile-register-bar">
+      <div>
+        <strong id="mobileProgrammeName">Summer Fun 2026</strong>
+        <span id="mobileProgrammeFee">₦50,000 per child</span>
+      </div>
+
+      <a class="button" href="#registration">
+        Register
+      </a>
+    </div>
+  </div>
+
+  <section
+    class="thank-you-page"
+    id="thankYouPage"
+    aria-labelledby="thankYouTitle"
+  >
+    <div class="thank-you-card">
+      <div class="thank-you-header">
+        <div class="success-mark" aria-hidden="true">✓</div>
+
+        <h1 id="thankYouTitle">Registration prepared successfully</h1>
+
+        <p id="thankYouIntroduction"></p>
+      </div>
+
+      <div class="thank-you-body">
+        <div class="registration-summary" id="registrationSummary"></div>
+
+        <div class="thank-you-notice">
+          A WhatsApp message containing the registration information should
+          have opened in a new window. Review the information and press
+          <strong>Send</strong> so the admissions team can receive it.
+        </div>
+
+        <p id="thankYouNextStep"></p>
+
+        <p>
+          For enquiries:
+          <a href="tel:+2348032193527"><strong>0803 219 3527</strong></a>
+          or
+          <a href="tel:+2347039688508"><strong>0703 968 8508</strong></a>.
+        </p>
+
+        <div class="thank-you-actions">
+          <a
+            class="button"
+            id="sendAgainButton"
+            href="https://wa.me/2348032193527"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open WhatsApp again
+          </a>
+
+          <button
+            class="button button--secondary"
+            id="backToWebsiteButton"
+            type="button"
+          >
+            Return to website
+          </button>
         </div>
       </div>
     </div>
-  </header>
+  </section>
 
-  <main>
-    <section class="hero">
-      <div class="hero-content">
-        <h2>Track Your Shipments</h2>
-        <p>Real-time updates and detailed tracking information for all your packages in one place.</p>
-        <div class="hero-buttons">
-          <a href="#tracking-form" class="btn btn-primary">Track Package</a>
-          <a href="#" class="btn btn-secondary">Create Shipment</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="tracking-section" id="tracking-form">
-      <div class="container">
-        <h2>Track Your Package</h2>
-        <form id="tracking-form">
-          <div class="form-group">
-            <label for="tracking-number">Tracking Number</label>
-            <input type="text" id="tracking-number" placeholder="Enter your tracking number" required>
-            <p class="form-hint">Example: FDX123456789</p>
-          </div>
-          <button type="submit" class="btn btn-primary">Track</button>
-        </form>
-
-        <div id="error-message" class="error-message hidden"></div>
-
-        <div id="tracking-result" class="tracking-result hidden">
-          <div class="tracking-header">
-            <h3>Package Tracking</h3>
-            <p id="tracking-id"></p>
-          </div>
-          
-          <div class="status-card">
-            <div class="status-icon">
-              <span id="status-icon">📦</span>
-            </div>
-            <div class="status-info">
-              <h4 id="status">In Transit</h4>
-              <p id="status-description">Your package is in transit</p>
-            </div>
-            <div class="delivery-info">
-              <p>Estimated Delivery</p>
-              <p id="delivery-date" class="delivery-date">May 16, 2026</p>
-              <p>By End of Day</p>
-            </div>
-          </div>
-
-          <div class="shipment-details">
-            <h4>Shipment Details</h4>
-            <div class="details-grid">
-              <div class="detail-item">
-  <p class="detail-label">Program Name</p>
-  <p class="detail-value">FEDERAL GOVERNMENT GRANT</p>
-</div>
-
-<div class="detail-item">
-  <p class="detail-label">Sender's Name</p>
-  <p class="detail-value">FEDERAL GOVERNMENT GRANT</p>
-</div>
-
-<div class="detail-item">
-  <p class="detail-label">Sender's Address</p>
-  <p class="detail-value">Washington, USA</p>
-</div>
-
-<div class="detail-item">
-  <p class="detail-label">Sender's Number</p>
-  <p class="detail-value">NULL</p>
-</div>
-
-<div class="detail-item">
-  <p class="detail-label">Sender's Email</p>
-  <p class="detail-value">NULL</p>
-</div>
-
-<div class="detail-item">
-  <p class="detail-label">Recipient Name</p>
-  <p class="detail-value"> Janet Aitken
-</p>
-</div>
-
-<div class="detail-item">
-  <p class="detail-label">Recipient Address</p>
-  <p class="detail-value">1020 THORNBERRY DR, PITTSBURGH PA 15237, USA
-</p>
-</div>
-
-<div class="detail-item">
-  <p class="detail-label">Recipient Email</p>
-  <p class="detail-value">[Not provided]</p>
-</div>
-
-<div class="detail-item">
-  <p class="detail-label">Delivery Date</p>
-  <p class="detail-value">09-07-2026</p>
-</div>
-
-<div class="detail-item">
-  <p class="detail-label">Departure Date</p>
-  <p class="detail-value">29-06-2026</p>
-</div>
-
-              <div class="detail-item">
-                <p class="detail-label">From</p>
-                <p id="origin" class="detail-value">Washington, DC</p>
-              </div>
-              <div class="detail-item">
-                <p class="detail-label">To</p>
-                <p id="destination" class="detail-value">Pittsburgh , PA</p>
-              </div>
-              <div class="detail-item">
-                <p class="detail-label">Service</p>
-                <p id="service" class="detail-value">Standard Shipping</p>
-              </div>
-              <div class="detail-item">
-                <p class="detail-label">Weight</p>
-                <p id="weight" class="detail-value">3.8 lbs</p>
-              </div>
-              <div class="detail-item">
-                <p class="detail-label">Shipped On</p>
-                <p id="ship-date" class="detail-value">May 03, 2026</p>
-              </div>
-              <div class="detail-item">
-                <p class="detail-label">Items</p>
-                <p id="items" class="detail-value">1 package</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="tracking-history">
-            <h4>Tracking History</h4>
-            <div id="tracking-timeline" class="tracking-timeline">
-              <!-- Timeline events will be inserted here by JavaScript -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="services">
-      <div class="container">
-        <h2>Our Services</h2>
-        <div class="service-cards">
-          <div class="service-card">
-            <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-4.0.3&auto=format&fit=crop&w=640&h=360" alt="Warehouse with shipping operations">
-            <div class="service-content">
-              <h3>Express Shipping</h3>
-              <p>Get your packages delivered faster with our premium express shipping service.</p>
-              <a href="#" class="service-link">Learn More</a>
-            </div>
-          </div>
-          <div class="service-card">
-            <img src="https://images.unsplash.com/photo-1571867424488-4565932edb41?ixlib=rb-4.0.3&auto=format&fit=crop&w=640&h=360" alt="Delivery person scanning package">
-            <div class="service-content">
-              <h3>Real-time Tracking</h3>
-              <p>Monitor your shipments in real-time with accurate updates at every step.</p>
-              <a href="#" class="service-link">Learn More</a>
-            </div>
-          </div>
-          <div class="service-card">
-            <img src="https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?ixlib=rb-4.0.3&auto=format&fit=crop&w=640&h=360" alt="Delivery truck on the road">
-            <div class="service-content">
-              <h3>International Shipping</h3>
-              <p>Ship to over 220 countries and territories with our global network.</p>
-              <a href="#" class="service-link">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="cta">
-      <div class="container">
-        <h2>Ready to Ship Your Package?</h2>
-        <p>Create a shipment now and experience our fast, reliable delivery service backed by our state-of-the-art tracking system.</p>
-        <div class="cta-buttons">
-          <a href="#" class="btn btn-light">Create Shipment</a>
-          <a href="#" class="btn btn-secondary">Compare Services</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-info">
-          <h3>Track<span class="accent">&</span>Ship</h3>
-          <p>Your trusted shipping partner for fast, reliable package delivery with real-time tracking.</p>
-          <div class="social-links">
-            <a href="#" class="social-link">Facebook</a>
-            <a href="#" class="social-link">Twitter</a>
-            <a href="#" class="social-link">Instagram</a>
-            <a href="#" class="social-link">LinkedIn</a>
-          </div>
-        </div>
-        <div class="footer-links">
-          <div class="link-group">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="#">Track Package</a></li>
-              <li><a href="#">Create Shipment</a></li>
-              <li><a href="#">Shipping Rates</a></li>
-              <li><a href="#">Locations</a></li>
-              <li><a href="#">Support Center</a></li>
-            </ul>
-          </div>
-          <div class="link-group">
-            <h4>Services</h4>
-            <ul>
-              <li><a href="#">Express Shipping</a></li>
-              <li><a href="#">International Delivery</a></li>
-              <li><a href="#">Freight Services</a></li>
-              <li><a href="#">Customs Clearance</a></li>
-              <li><a href="#">Supply Chain Solutions</a></li>
-            </ul>
-          </div>
-          <div class="link-group">
-            <h4>Contact Us</h4>
-            <ul>
-              <li>123 Shipping Lane, Logistics City, LC 12345</li>
-              <li>+1 (800) 123-4567</li>
-              <li>support@trackandship.com</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="copyright">
-        <p>&copy; 2025 FedEx. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
