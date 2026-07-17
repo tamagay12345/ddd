@@ -3,32 +3,32 @@ const trackingData = {
   'FDX443315462': {
     trackingNumber: 'FDX443315462',
     status: 'In Transit',
-    estimatedDelivery: '2026-07-09',
+    estimatedDelivery: '2026-07-21',
     origin: 'Washington, DC',
     destination: 'Pittsburgh, PA',
     service: 'Standard Shipping',
     weight: '3.8 lbs',
-    shipDate: '2026-06-29',
+    shipDate: '2026-07-17',
     items: '1 package',
     currentLocation: 'Chicago, IL',
-    lastUpdated: '2026-06-29T13:45:20',
+    lastUpdated: '2026-07-17T13:45:20',
     events: [
       {
         status: 'Arrived at FedEx Facility',
         location: 'Portland, OR',
-        timestamp: '2026-06-09T16:15:00',
+        timestamp: '2026-07-17T16:15:00',
         description: 'Package arrived at FedEx sorting facility.'
       },
       {
         status: 'In Transit',
         location: 'Washington, DC',
-        timestamp: '2026-06-09T12:45:00',
+        timestamp: '2026-07-17T12:45:00',
         description: 'Package has departed origin facility.'
       },
       {
         status: 'Shipment Information Sent',
         location: 'Washington, DC',
-        timestamp: '2026-06-09T09:30:00',
+        timestamp: '2026-07-17T09:30:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
