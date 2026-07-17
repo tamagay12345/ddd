@@ -16,7 +16,7 @@ const trackingData = {
       {
         status: 'Arrived at FedEx Facility',
         location: 'Portland, OR',
-        timestamp: '2026-07-17T16:15:00',
+        timestamp: '2026-07-17T13:15:00',
         description: 'Package arrived at FedEx sorting facility.'
       },
       {
