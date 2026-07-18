@@ -2,7 +2,7 @@
 const trackingData = {
   'FDX443315462': {
     trackingNumber: 'FDX443315462',
-    status: 'In Transit',
+    status: 'On Hold',
     estimatedDelivery: '2026-07-21',
     origin: 'Washington, DC',
     destination: 'Pittsburgh, PA',
