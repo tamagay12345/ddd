@@ -84,7 +84,7 @@ const trackingData = {
       },
       {
         status: 'Arrived at Facility',
-        location: ''Commerce, CA',
+        location: 'Commerce, CA',
         timestamp: '2026-08-03T18:15:00',
         description: 'Package arrived at local FedEx facility.'
       },
