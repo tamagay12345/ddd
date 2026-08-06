@@ -1,14 +1,14 @@
 // Sample tracking data (would normally come from a server)
 const trackingData = {
-  'FDX443315462': {
-    trackingNumber: 'FDX443315462',
+  'FDX545515462': {
+    trackingNumber: 'FDX545515462',
     status: 'On Hold',
-    estimatedDelivery: '2026-07-21',
+    estimatedDelivery: '2026-08-10',
     origin: 'Washington, DC',
     destination: 'Pittsburgh, PA',
     service: 'Standard Shipping',
-    weight: '3.8 lbs',
-    shipDate: '2026-07-17',
+    weight: '2.6 lbs',
+    shipDate: '2026-08-03',
     items: '1 package',
     currentLocation: 'Chicago, IL',
     lastUpdated: '2026-07-17T13:45:20',
@@ -33,113 +33,71 @@ const trackingData = {
       }
     ]
   },
-  'FDX4465772': {
-    trackingNumber: 'FDX446515772',
+  'FDX543215462': {
+    trackingNumber: 'FDX543215462',
     status: 'On Hold',
-    estimatedDelivery: '2026-06-17',
-    origin: 'Michigan, US',
-    destination: 'Co. Westmeath, Ireland',
+    estimatedDelivery: '2026-08-10',
+    origin: 'California, CA',
+    destination: 'Waterbury, Connecticut',
     service: 'Standard Shipping',
-    weight: '3.8 lbs',
-    shipDate: '2026-06-02',
+    weight: '2.6 lbs',
+    shipDate: '2026-08-03',
     items: '1 package',
-    currentLocation: 'Dublin, Ireland',
-    lastUpdated: '2026-06-16T14:00:00',
+    currentLocation: 'Michigan, MI',
+    lastUpdated: '2026-08-06T20:30:00',
     events: [
-   {
-        status: 'On Hold',
-        location: 'Kilkenny, Ireland',
-        timestamp: '2026-06-16T13:20:00',
-        description: 'Shipment is currently on hold pending further processing.'
-      },
-      {
-        status: 'In Transit',
-        location: 'Kilkenny, Ireland',
-        timestamp: '2026-06-16T11:40:00',
-        description: 'Package rerouted to alternate regional distribution facility.'
-      },
-      {
-        status: 'In Transit',
-        location: 'Dublin, Ireland',
-        timestamp: '2026-06-13T14:30:00',
-        description: 'Package is in transit to local delivery facility.'
-      },
-      {
-        status: 'Customs Clearance',
-        location: 'Dublin, Ireland',
-        timestamp: '2026-06-13T10:25:00',
-        description: 'Clearance processing completed and proceed to local distribution network.'
-      },
       {
         status: 'On Hold',
-        location: 'Dublin, Ireland',
-        timestamp: '2026-06-09T13:50:00',
-        description: 'Package on hold for custom clearance.'
-      },
-      {
-        status: 'Arrived at Facility',
-        location: 'Dublin, Ireland',
-        timestamp: '2026-06-09T11:30:00',
-        description: 'Package arrived at destination country sorting facility.'
-      },
-      {
-        status: 'In Transit',
-        location: 'Atlantic Ocean',
-        timestamp: '2026-06-08T09:20:00',
-        description: 'Package departed international gateway and is in transit to destination country.'
-      },
-      {
-        status: 'On Hold',
-        location: 'Newark, NJ',
-        timestamp: '2026-06-04T18:00:00',
-        description: 'Shipment is currently on hold pending international clearance.'
-      },
-      {
-        status: 'In Transit',
-        location: 'Newark, NJ',
-        timestamp: '2026-06-04T11:00:00',
-        description: 'Documentation and international shipment processing.'
-      },
-      {
-        status: 'In Transit',
-        location: 'Newark, NJ',
-        timestamp: '2026-06-03T17:20:00',
-        description: 'Package arrived at international carrier.'
-      },
-      {
-        status: 'In Transit',
-        location: 'Indianapolis, IN',
-        timestamp: '2026-06-03T10:05:00',
-        description: 'Package departed international processing hub.'
-      },
-      {
-        status: 'Arrived at Facility',
-        location: 'Indianapolis, IN',
-        timestamp: '2026-06-02T21:30:00',
-        description: 'Package arrived at carrier hub for international processing.'
+        location: 'Romulus, MI',
+        timestamp: '2026-08-05T18:00:00',
+        description: 'Shipment is currently on hold at the carrier processing facility.'
       },
       {
         status: 'In Transit',
         location: 'Romulus, MI',
-        timestamp: '2026-06-02T13:25:00',
+        timestamp: '2026-08-05T16:15:00',
+        description: 'Package arrived at sorting facility.'
+      },
+      {
+        status: 'In Transit',
+        location: 'Romulus, MI',
+        timestamp: '2026-08-05T13:20:00',
+        description: 'Package is in transit.'
+      },
+      {
+        status: 'In Transit',
+        location: 'Phoenix, AZ',
+        timestamp: '2026-08-05T10:05:00',
+        description: 'Package departed processing hub.'
+      },
+      {
+        status: 'Arrived at Facility',
+        location: 'Phoenix, AZ',
+        timestamp: '2026-08-04T21:30:00',
+        description: 'Package arrived at carrier hub.'
+      },
+      {
+        status: 'In Transit',
+        location: 'Commerce, CA',
+        timestamp: '2026-08-04T13:25:00',
         description: 'Package is out for delivery.'
       },
       {
         status: 'Arrived at Facility',
-        location: 'Romulus, MI',
-        timestamp: '2026-06-02T12:15:00',
+        location: ''Commerce, CA',
+        timestamp: '2026-08-03T18:15:00',
         description: 'Package arrived at local FedEx facility.'
       },
       {
         status: 'Picked Up',
-        location: 'Detroit, MI',
-        timestamp: '2026-06-02T11:30:00',
+        location: 'Los Angeles, CA',
+        timestamp: '2026-08-03T13:30:00',
         description: 'Package picked up by carrier.'
       },
       {
         status: 'Shipment Information Sent',
-        location: 'Detroit, MI',
-        timestamp: '2026-06-02T09:20:00',
+        location: 'Los Angeles, CA',
+        timestamp: '2026-08-03T09:20:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
