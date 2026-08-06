@@ -33,8 +33,8 @@ const trackingData = {
       }
     ]
   },
-  'FDX543215462': {
-    trackingNumber: 'FDX543215462',
+  'FDX557314482': {
+    trackingNumber: 'FDX557314482',
     status: 'On Hold',
     estimatedDelivery: '2026-08-10',
     origin: 'California, CA',
