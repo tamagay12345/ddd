@@ -1,34 +1,34 @@
 // Sample tracking data (would normally come from a server)
 const trackingData = {
-  'FDX545515462': {
-    trackingNumber: 'FDX545515462',
-    status: 'On Hold',
-    estimatedDelivery: '2026-08-10',
-    origin: 'Washington, DC',
+  'FDX643315322': {
+    trackingNumber: 'FDX643315322',
+    status: 'In  Transit',
+    estimatedDelivery: '2026-11-20',
+    origin: 'Tallahassee, FL',
     destination: 'Pittsburgh, PA',
     service: 'Standard Shipping',
-    weight: '2.6 lbs',
-    shipDate: '2026-08-03',
+    weight: '2 g',
+    shipDate: '2026-11-20',
     items: '1 package',
     currentLocation: 'Chicago, IL',
-    lastUpdated: '2026-07-17T13:45:20',
+    lastUpdated: '2026-11-20T11:25:20',
     events: [
       {
         status: 'Arrived at FedEx Facility',
-        location: 'Portland, OR',
-        timestamp: '2026-07-17T13:15:00',
+        location: 'Atlanta, GA',
+        timestamp: '2026-11-20T11:15:00',
         description: 'Package arrived at FedEx sorting facility.'
       },
       {
-        status: 'In Transit',
-        location: 'Washington, DC',
-        timestamp: '2026-07-17T12:45:00',
+        status: 'Picked Up',
+        location: 'Tallahassee, FL',
+        timestamp: '2026-11-20T08:00:00',
         description: 'Package has departed origin facility.'
       },
       {
         status: 'Shipment Information Sent',
-        location: 'Washington, DC',
-        timestamp: '2026-07-17T09:30:00',
+        location: 'Tallahassee, FL',
+        timestamp: '2026-11-20T07:15:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
