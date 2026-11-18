@@ -5,12 +5,12 @@ const trackingData = {
     status: 'In  Transit',
     estimatedDelivery: '2026-11-20',
     origin: 'Tallahassee, FL',
-    destination: 'Pittsburgh, PA',
+    destination: 'Westmeath Ireland',
     service: 'Standard Shipping',
     weight: '2 g',
     shipDate: '2026-11-18',
     items: '1 package',
-    currentLocation: 'Chicago, IL',
+    currentLocation: 'Atlanta, GA',
     lastUpdated: '2026-11-18T11:25:20',
     events: [
       {
