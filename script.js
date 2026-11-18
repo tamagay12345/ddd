@@ -8,27 +8,27 @@ const trackingData = {
     destination: 'Pittsburgh, PA',
     service: 'Standard Shipping',
     weight: '2 g',
-    shipDate: '2026-11-20',
+    shipDate: '2026-11-18',
     items: '1 package',
     currentLocation: 'Chicago, IL',
-    lastUpdated: '2026-11-20T11:25:20',
+    lastUpdated: '2026-11-18T11:25:20',
     events: [
       {
         status: 'Arrived at FedEx Facility',
         location: 'Atlanta, GA',
-        timestamp: '2026-11-20T11:15:00',
+        timestamp: '2026-11-18T11:15:00',
         description: 'Package arrived at FedEx sorting facility.'
       },
       {
         status: 'Picked Up',
         location: 'Tallahassee, FL',
-        timestamp: '2026-11-20T08:00:00',
+        timestamp: '2026-11-18T08:00:00',
         description: 'Package has departed origin facility.'
       },
       {
         status: 'Shipment Information Sent',
         location: 'Tallahassee, FL',
-        timestamp: '2026-11-20T07:15:00',
+        timestamp: '2026-11-18T07:15:00',
         description: 'Shipment information sent to FedEx.'
       }
     ]
