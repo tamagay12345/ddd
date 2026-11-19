@@ -11,8 +11,14 @@ const trackingData = {
     shipDate: '2026-11-18',
     items: '1 package',
     currentLocation: 'Newark, NJ',
-    lastUpdated: '2026-11-19T11:17:20',
+    lastUpdated: '2026-11-19T13:25:20',
     events: [
+      {
+        status: 'International Shipment Processing',
+        location: 'Newark, NJ',
+        timestamp: '2026-11-19T13:20:00',
+        description: 'Package cleared for international transit, awaiting departure.'
+      },
       {
         status: 'Arrived at Facility',
         location: 'Newark, NJ',
