@@ -10,9 +10,27 @@ const trackingData = {
     weight: '2 g',
     shipDate: '2026-11-18',
     items: '1 package',
-    currentLocation: 'Atlanta, GA',
-    lastUpdated: '2026-11-18T11:25:20',
+    currentLocation: 'Newark, NJ',
+    lastUpdated: '2026-11-19T11:17:20',
     events: [
+      {
+        status: 'Arrived at Facility',
+        location: 'Newark, NJ',
+        timestamp: '2026-11-19T11:12:00',
+        description: 'Package arrived at international export facility for outbound processing.'
+      },
+      {
+        status: 'In Transit',
+        location: 'Memphis, TN',
+        timestamp: '2026-11-19T08:30:00',
+        description: 'Package departed carrier hub en route to export gateway.'
+      },
+      {
+        status: 'Arrived at Facility',
+        location: 'Memphis, TN',
+        timestamp: '2026-11-19T04:25:00',
+        description: 'Package arrived at FedEx international sorting facility.'
+      },
       {
         status: 'Arrived at FedEx Facility',
         location: 'Atlanta, GA',
