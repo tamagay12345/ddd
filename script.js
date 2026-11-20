@@ -2,7 +2,7 @@
 const trackingData = {
   'FDX643315322': {
     trackingNumber: 'FDX643315322',
-    status: 'In  Transit',
+    status: 'On  Hold',
     estimatedDelivery: '2026-11-20',
     origin: 'Tallahassee, FL',
     destination: 'Westmeath Ireland',
