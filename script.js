@@ -14,6 +14,24 @@ const trackingData = {
     lastUpdated: '2026-11-19T13:25:20',
     events: [
       {
+        status: 'On Hold',
+        location: 'Cork City, Ireland',
+        timestamp: '2026-11-20T14:50:00',
+        description: 'Shipment on hold at regional facility pending processing and release.'
+      },
+      {
+        status: 'Arrived at Facility',
+        location: 'Cork, Ireland',
+        timestamp: '2026-11-20T13:45:00',
+        description: 'Package arrived at international export facility for outbound processing.'
+      },
+      {
+        status: 'In Transit',
+        location: 'International Transit',
+        timestamp: '2026-11-20T06:15:00',
+        description: 'Package is in international transit to its destination country.'
+      },
+      {
         status: 'International Shipment Processing',
         location: 'Newark, NJ',
         timestamp: '2026-11-19T13:20:00',
