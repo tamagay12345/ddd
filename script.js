@@ -2,7 +2,7 @@
 const trackingData = {
   'FDX643315322': {
     trackingNumber: 'FDX643315322',
-    status: 'In Transit',
+    status: 'On Hold',
     estimatedDelivery: '2026-11-25',
     origin: 'Tallahassee, FL',
     destination: 'Westmeath Ireland',
@@ -10,9 +10,21 @@ const trackingData = {
     weight: '2 g',
     shipDate: '2026-11-18',
     items: '1 package',
-    currentLocation: 'Blarney, Co. Cork, Ireland',
-    lastUpdated: '2026-11-23T17:25:20',
+    currentLocation: 'Limerick, Ireland',
+    lastUpdated: '2026-11-23T17:55:20',
     events: [
+      {
+        status: 'On Hold',
+        location: 'Limerick, Ireland',
+        timestamp: '2026-11-24T17:30:00',
+        description: 'Shipment is currently on hold at the regional facility.'
+      },
+      {
+        status: 'In Transit',
+        location: 'Limerick, Ireland',
+        timestamp: '2026-11-24T14:35:00',
+        description: 'Package arrived at a regional carrier facility.'
+      },
       {
         status: 'In Transit',
         location: 'Blarney, Co. Cork, Ireland',
